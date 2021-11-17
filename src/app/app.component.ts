@@ -1,14 +1,5 @@
 import { Component } from '@angular/core';
 
-
-import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/operators";
-import {HttpClient} from "@angular/common/http";
-
-import  { FormControl, NgForm } from '@angular/forms';
-import  { JogoService } from './pages/jogo/shared/jogo.service';
-import  { Jogador } from "./pages/jogo/shared/jogador.model";
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
