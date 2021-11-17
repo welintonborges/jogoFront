@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import  { JogoService } from'./pages/jogo/shared/jogo.service'
+
 
 @Component({
   selector: 'app-root',
