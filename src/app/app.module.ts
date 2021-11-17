@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { PlayComponent } from './pages/jogo/play/play.component';
 import { FormsModule } from "@angular/forms";
 import  { Jogador } from "./pages/jogo/shared/jogador.model";
-
+import { ToastrModule } from 'ngx-toastr';
 import { Injectable } from '@angular/core';
 
 @NgModule({
@@ -21,6 +21,7 @@ import { Injectable } from '@angular/core';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    ToastrModule
 
   ],
   providers: [ ],
